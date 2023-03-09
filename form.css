@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+.form-container{
+    background-color:hsl(241, 84%, 88%);
+    height: 100vh;
+    color: rgb(21, 6, 6);
+    min-height: 500px;
+    position:relative;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    h2{
+        color:#FF3131;
+        background-color:#1a1dd1;
+        padding:20px;
+      }
+      button{
+        padding:40px 20px;
+        background-color:rgb(231, 250, 255) ; 
+        color:rgb(0, 1, 37);
+        border:none;
+        border-radius:4px;
+        box-shadow:0 2px 4px rgba(0,0,0,0.2);
+        cursor:pointer;
+        transition:background-color 0.3s ease;
+        display:inline-block;
+        width: 98%;
+        height:10vh;
+        margin: 10px 10px;
+        font-size: x-large;
+    }
+    button:hover{
+      background-color:#FF3131;
+     
+    }
+    button a:hover{
+      color: azure;
+    
+    }
+   

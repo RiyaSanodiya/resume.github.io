@@ -1,0 +1,121 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+section.home{
+  padding: 200px 100px 100px 200px;
+}
+/* Set the website name font and color */
+ #website-name{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+  }
+
+  /* Center the title */
+  #title-1{
+    text-align:left;
+    font-size:xx-large;
+    max-width:1300px;
+    padding:100px 0 200px;
+    margin: 20px;
+    display:inline;
+  }
+  #title-1 button{
+      background-color:#1ad1bf;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  #title-1 span{
+    color:#1a1dd1;
+  }
+  #website-name span{
+    color:#1ad1bf;
+  }
+  
+  .img-container img{
+    margin:200px 200px 200px 400px;
+    background-attachment: fixed;
+  }
+
+ .home{
+  display: flex;
+  background:rgb(231, 250, 255);
+  height: 100vh;
+  color: rgb(5, 1, 13);
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+ 
+ 
+ }
+
+  /* Style the navbar */
+  #navbar {
+    background-color:#1a1dd1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+
+  /* Style the navbar buttons */
+  .navbar-button {
+    margin-left: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #FF3131;
+    border: 1px solid #333;
+  }
+
+  /* Style the navbar buttons on hover */
+  .navbar-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .navbar-item{
+    margin-left: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    background-color: #1ad1bf;
+    border: 1px solid #333;
+  }
+  .form-container{
+  background-color:#0062cc;
+  height: 100vh;
+  color: rgb(21, 6, 6);
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+ 
+  }
+
+  section.sec-2{
+    padding:none;
+    border:none;
+  }
+
+
+
+
